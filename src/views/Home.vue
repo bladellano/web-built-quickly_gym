@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar />
+    <Navbar />
     <HeroSection />
     <AboutSection />
     <BenefitsSection />
@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import NavBar from '../components/NavBar.vue'
+import Navbar from '../components/Navbar.vue'
 import HeroSection from '../components/HeroSection.vue'
 import AboutSection from '../components/AboutSection.vue'
 import BenefitsSection from '../components/BenefitsSection.vue'
